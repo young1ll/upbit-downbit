@@ -1,0 +1,516 @@
+repo_name: young1ll/upbit-downbit
+report_id: ad273ad13a1ffcdcdcfcef47a802e456
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-28T13:45:02+00:00'
+requested_by: Seongkyun-Yu
+provider: github
+branch: develop
+detected_tools_count: 37
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-08 14:52:34.000000000 Z
+- name: redux-saga
+  description: An alternative side effect model for Redux apps
+  website_url: https://redux-saga.github.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-08 14:52:34.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-08 14:52:34.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-11-09 08:33:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-11-12 10:58:41.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-06 14:11:30.000000000 Z
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 1.2.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 5.15.1
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-12-09 07:56:38.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 5.15.1
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-12-09 07:56:38.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-11-01 13:35:01.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 5.16.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: d3-selection
+  description: 'Data-driven DOM manipulation: select elements and join them to data'
+  package_url: https://www.npmjs.com/d3-selection
+  version: 1.4.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17187/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-19 12:44:25.000000000 Z
+- name: decimal.js
+  description: An arbitrary-precision Decimal type for JavaScript
+  package_url: https://www.npmjs.com/decimal.js
+  version: 10.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18188/default_13969c5d2859d7d510fdef0e78c273ae025e9cc4.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-10-21 16:06:59.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+  vulnerabilities:
+  - name: Cleartext Transmission of Sensitive Information in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v78c-4p63-2j6c
+    detected_date: Aug 31
+    severity: moderate
+    first_patched: 0.5.35
+  - name: Command Injection in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-56x4-j7p9-fcf9
+    detected_date: Aug 31
+    severity: low
+    first_patched: 0.5.35
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 6.14.9
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: raf
+  description: RequestAnimationFrame polyfill for node and the browser
+  package_url: https://www.npmjs.com/raf
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16199/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-02 13:03:25.000000000 Z
+- name: react-app-polyfill
+  description: Polyfills for various browsers including commonly used language features
+  package_url: https://www.npmjs.com/react-app-polyfill
+  version: 1.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16437/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: text-encoding
+  description: Polyfill for the Encoding Living Standard's API
+  package_url: https://www.npmjs.com/text-encoding
+  version: 0.7.0
+  license: Unlicense,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18112/image.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2021-01-20 14:21:40.000000000 Z
+- name: websocket
+  description: Websocket Client &amp; Server Library implementing the WebSocket protocol
+    as specified in RFC 6455
+  package_url: https://www.npmjs.com/websocket
+  version: 1.0.32
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16782/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/young1ll/upbit-downbit/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Seongkyun-Yu
+  last_updated_on: 2020-09-08 14:52:34.000000000 Z
